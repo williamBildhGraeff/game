@@ -3,7 +3,7 @@ from code.Game import Game
 game = Game()
 game.run()
 
-# import pygamed
+# import pygame
 # from pygame import Surface, Rect
 #
 # W_WIDTH = 576
