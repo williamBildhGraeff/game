@@ -5,20 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="055d4892-923b-4b1e-adcd-f6f484fe3d40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/asset/level1/Level1Bg0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/level1/Level1Bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/level1/Level1Bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/level1/Level1Bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/level1/Level1Bg4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/level1/Level1Bg5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/level1/Level1Bg6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Background.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/enemy/Enemy1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/enemy/Enemy2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/player/Player1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/player/Player2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Enemy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/player1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Background.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Background.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/EntityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,15 +40,18 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "developer",
-    "last_opened_file_path": "C:/Users/55519/Documents/game/asset",
+    "last_opened_file_path": "C:/Users/55519/Documents/game/asset/enemy",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\55519\Documents\game\asset\enemy" />
+      <recent name="C:\Users\55519\Documents\game\asset\Enemy" />
       <recent name="C:\Users\55519\Documents\game\asset" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\55519\Documents\game\asset\player" />
       <recent name="C:\Users\55519\Documents\game\asset\Level1" />
       <recent name="C:\Users\55519\Documents\game\asset" />
     </key>
@@ -101,5 +105,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code/Entity.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,11 +1,9 @@
-from abc import abstractmethod
-
-from code.Const import WIN_WIDTH, ENTITY_SPEED
+from code.Const import ENTITY_SPEED, WIN_WIDTH
 from code.Entity import Entity
 
 
-class Background(Entity):
-    def __init__(self, name: str, position: tuple, path='level1'):
+class Enemy(Entity):
+    def __init__(self, name: str, position: tuple, path: str):
         super().__init__(name, position, path)
 
     def move(self):

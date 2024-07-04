@@ -13,7 +13,7 @@ game.run()
 # window: Surface = pygame.display.set_mode(size=(W_WIDTH, W_HEIGHT))
 #
 # bg_surf: Surface = pygame.image.load('./asset/bg_menu.png').convert_alpha()
-# player1_surf: Surface = pygame.image.load('./asset/player1.png').convert_alpha()
+# player1_surf: Surface = pygame.image.load('./asset/Player1.png').convert_alpha()
 #
 # bg_rect: Rect = bg_surf.get_rect(left=0, top=0)
 # player1_rect: Rect = player1_surf.get_rect(left=0, top=0)
