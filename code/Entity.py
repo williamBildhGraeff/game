@@ -3,7 +3,8 @@ from abc import ABC
 import pygame
 from pygame import Surface
 
-from code.Const import ENTITY_HEALTH, PLAYER_KEY_UP
+from code.Const import ENTITY_HEALTH, PLAYER_KEY_UP, ENTITY_SPEED, ENTITY_DAMAGE, PLAYER_KEY_DOWN, PLAYER_KEY_LEFT, \
+    PLAYER_KEY_RIGHT, WIN_HEIGHT, WIN_WIDTH, ENTITY_SCORE
 
 
 class Entity(ABC):
@@ -11,8 +12,11 @@ class Entity(ABC):
         self.name = name
         self.surf: Surface = pygame.image.load(f'./asset/{path}/' + name + '.png').convert_alpha()
         self.rect = self.surf.get_rect(left=position[0], top=position[1])
-        self.speed = 0
+        self.speed = ENTITY_SPEED[self.name]
         self.health = ENTITY_HEALTH[self.name]
+        self.damage = ENTITY_DAMAGE[self.name]
+        self.score = ENTITY_SCORE[self.name]
+        self.last_damage = 'None'
 
     def move(self):
         pressed_key = pygame.key.get_pressed()
