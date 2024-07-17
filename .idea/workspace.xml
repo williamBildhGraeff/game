@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="055d4892-923b-4b1e-adcd-f6f484fe3d40" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/asset/level1/Level2Bg0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/level1/Level2Bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/level1/Level2Bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/level1/Level2Bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/level1/Level2Bg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/score.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/DBProxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Score.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/EntityMediator.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/EntityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,18 +37,20 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;developer&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/55519/Documents/game/asset/shot&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/55519/Documents/game/asset&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\55519\Documents\game\asset" />
+      <recent name="C:\Users\55519\Documents\game\asset\level1" />
       <recent name="C:\Users\55519\Documents\game\asset\shot" />
       <recent name="C:\Users\55519\Documents\game\asset\enemy" />
       <recent name="C:\Users\55519\Documents\game\asset\Enemy" />
-      <recent name="C:\Users\55519\Documents\game\asset" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\55519\Documents\game\asset\player" />
